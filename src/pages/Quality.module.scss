@@ -1,0 +1,208 @@
+.quality {
+  background: #f5f5f5;
+  width: 100vw;
+  height: 100vh;
+  h1 {
+    font-family: 'Motley Forces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.125em;
+
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #e64b76;
+    padding-top: 50px;
+  }
+}
+
+.circles {
+  div:nth-child(1) {
+    width: 359px;
+    height: 359px;
+    background: #89dedd;
+    box-shadow: 0px 2.09737px 4.19474px rgba(115, 93, 93, 0.2);
+    border-radius: 50%;
+  }
+  div:nth-child(2) {
+    width: 261.19px;
+    height: 261.19px;
+    background: #89dedd;
+    box-shadow: 0px 2.09737px 4.19474px rgba(115, 93, 93, 0.2);
+    border-radius: 50%;
+  }
+  div:nth-child(3) {
+    width: 180.04px;
+    height: 180.04px;
+    background: #89dedd;
+    box-shadow: 0px 2.09737px 4.19474px rgba(115, 93, 93, 0.2);
+    border-radius: 50%;
+  }
+  div:nth-child(4) {
+    width: 82px;
+    height: 82px;
+    background: #f5f5f5;
+    box-shadow: 0px 2.09737px 4.19474px rgba(115, 93, 93, 0.2);
+    border-radius: 50%;
+  }
+}
+
+.clouds {
+  div {
+    position: absolute;
+  }
+  h1 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    font-family: 'Motley Forces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.8666px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding: 0;
+    width: 100%;
+  }
+  div:nth-child(1) {
+    left: 33%;
+    top: 50%;
+    transform: translateX(-77%) translateY(-50%);
+    animation: div1;
+    animation-delay: 1ms;
+    animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    animation-duration: 400ms;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @keyframes div1 {
+    0% {
+      left: 0;
+      top: 50%;
+      width: 209px;
+    }
+    100% {
+      left: 33%;
+      top: 50%;
+      width: 140px;
+    }
+  }
+  div:nth-child(2) {
+    right: 33%;
+    top: 40%;
+    transform: translateX(77%) translateY(-77%);
+    img {
+      width: 100%;
+      height: auto;
+    }
+    animation: div2;
+    animation-delay: 1ms;
+    animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    animation-duration: 400ms;
+    animation-direction: forward;
+  }
+  @keyframes div2 {
+    0% {
+      right: 0;
+      top: 30%;
+      width: 209px;
+    }
+    100% {
+      right: 33%;
+      top: 40%;
+      width: 140px;
+    }
+  }
+  div:nth-child(3) {
+    right: 33%;
+    bottom: 40%;
+    transform: translateX(77%) translateY(60%);
+    img {
+      width: 100%;
+      height: auto;
+    }
+    animation: div3;
+    animation-delay: 1ms;
+    animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    animation-duration: 400ms;
+    animation-direction: forward;
+  }
+  @keyframes div3 {
+    0% {
+      right: 0;
+      bottom: 30%;
+      width: 209px;
+    }
+    100% {
+      right: 33%;
+      top: 40%;
+      width: 140px;
+    }
+  }
+  div:nth-child(4) {
+    left: 33%;
+    top: 33%;
+    transform: translateX(-77%) translateY(-80%);
+    img {
+      width: 100%;
+      height: auto;
+    }
+    animation: div4;
+    animation-delay: 1ms;
+    animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    animation-duration: 400ms;
+    animation-direction: forward;
+  }
+  @keyframes div4 {
+    0% {
+      left: 0%;
+      top: 0%;
+      width: 209px;
+    }
+    100% {
+      left: 33%;
+      top: 33%;
+      width: 140px;
+    }
+  }
+  div:nth-child(5) {
+    left: 33%;
+    top: 60%;
+    transform: translateX(-77%) translateY(50%);
+    img {
+      width: 100%;
+      height: auto;
+    }
+    animation: div5;
+    animation-delay: 1ms;
+    animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    animation-duration: 400ms;
+    animation-direction: forward;
+  }
+  @keyframes div5 {
+    0% {
+      left: 0%;
+      top: 99%;
+      width: 209px;
+    }
+    100% {
+      left: 33%;
+      top: 60%;
+      width: 140px;
+    }
+  }
+}
+
+.btn {
+  height: 38px;
+  border-radius: 16.263957977294922px;
+  padding: 8px 22px 8px 22px;
+  position: absolute;
+  bottom: 50px;
+}

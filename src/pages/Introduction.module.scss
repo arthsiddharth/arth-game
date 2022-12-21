@@ -1,0 +1,117 @@
+.root {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+
+.introduction {
+  min-height: 80vh;
+}
+.nextBtn {
+  min-height: 20vh;
+  width: 5rem;
+}
+
+.outerCircle {
+  position: absolute;
+  left: -42px;
+  top: -55px;
+  // transform: translate(-10%, -10%);
+  width: 317.82px;
+  height: 317.82px;
+  border-radius: 50%;
+  background: #89dedd;
+  box-shadow: 2.78443px -2.78443px 5.56886px rgba(255, 255, 255, 0.3);
+  animation: OuterCircleGoToCorner;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+}
+
+.innerCircle {
+  position: absolute;
+  top: -11.7px;
+  left: 1.3px;
+  // transform: translate(-50%, -50%);
+  width: 231.23px;
+  height: 231.23px;
+  border-radius: 50%;
+  background: #89dedd;
+  box-shadow: 2.78443px -2.78443px 5.56886px rgba(255, 255, 255, 0.3);
+  animation: InnerCircleGoToCorner;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+}
+
+@keyframes OuterCircleGoToCorner {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  100% {
+    left: -42px;
+    top: -55px;
+  }
+}
+
+@keyframes InnerCircleGoToCorner {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  100% {
+    top: -11.7px;
+    left: 1.3px;
+  }
+}
+
+.content {
+  position: relative;
+  h1 {
+    font-family: Motley Forces;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #e64b76;
+    margin: 16px;
+  }
+  p {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 120.22%;
+    letter-spacing: 0.04em;
+    color: #473192;
+    margin: 16px;
+  }
+}
+
+.characters {
+  position: relative;
+  height: auto;
+  left: 50%;
+  width: 319.65px;
+  height: 300px;
+  transform: translateX(-50%);
+  img {
+    position: absolute;
+    height: 70%;
+    top: 78px;
+  }
+  img:nth-child(1) {
+    top: 61px;
+    left: 0%;
+  }
+  img:nth-child(2) {
+    left: 15%;
+  }
+  img:nth-child(3) {
+    left: 30%;
+  }
+  img:nth-child(4) {
+    left: 45%;
+  }
+}

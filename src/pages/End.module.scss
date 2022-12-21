@@ -1,0 +1,59 @@
+.end {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(168.97deg, #ffffff 0.73%, #daffff 97.07%);
+}
+.characters {
+  position: relative;
+  height: auto;
+  left: 50%;
+  width: 319.65px;
+  height: 300px;
+  transform: translateX(-50%);
+  img {
+    position: absolute;
+    height: 70%;
+    top: 78px;
+  }
+  img:nth-child(1) {
+    top: 61px;
+    left: 0%;
+  }
+  img:nth-child(2) {
+    left: 15%;
+  }
+  img:nth-child(3) {
+    left: 30%;
+  }
+  img:nth-child(4) {
+    left: 45%;
+  }
+  div {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 272px;
+    button {
+      padding: 24px 14px;
+    }
+  }
+}
+
+.logo {
+  height: 120px;
+}
+
+.h1 {
+  font-family: 'Motley Forces';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+
+  /* identical to box height */
+  letter-spacing: 0.04em;
+
+  color: #e64b76;
+  text-align: center;
+}

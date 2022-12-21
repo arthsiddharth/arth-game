@@ -1,0 +1,188 @@
+.root {
+  background-color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.envSelection {
+  position: relative;
+  min-height: 80vh;
+}
+
+.topCircles {
+  div {
+    background: #89dedd;
+    box-shadow: 0px 1.75852px 3.51704px rgba(115, 93, 93, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  div:nth-child(1) {
+    width: 18em;
+    height: 18em;
+    top: -9em;
+  }
+  div:nth-child(2) {
+    width: 14em;
+    height: 14em;
+    top: -7em;
+  }
+  div:nth-child(3) {
+    width: 10em;
+    height: 10em;
+    top: -5em;
+  }
+  div:nth-child(4) {
+    width: 6em;
+    height: 6em;
+    top: -3em;
+  }
+}
+
+.heading {
+  text-align: center;
+  padding: 0 0.625em;
+  h1 {
+    font-family: 'Motley Forces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.125em;
+    letter-spacing: 0.04em;
+    color: #e64b76;
+    margin-bottom: 1em;
+    margin-top: 3em;
+  }
+  p {
+    font-size: 0.875em;
+    line-height: 1.125em;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #473192;
+  }
+  margin-bottom: 3em;
+}
+
+.selection {
+  margin: 1.25em auto;
+  position: relative;
+  height: 23.125em;
+  width: 20.625em;
+  div {
+    position: absolute;
+    &:hover {
+      cursor: pointer;
+    }
+    h2 {
+      text-align: center;
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 1.125em;
+      line-height: 21px;
+      position: relative;
+      /* identical to box height */
+      letter-spacing: 0.04em;
+      color: #ffffff;
+    }
+    h4 {
+      text-align: center;
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.04em;
+      color: #c5fcfb;
+      position: relative;
+    }
+    img {
+      transform: translateX(1.25em) translateY(-0.625em);
+      width: 7.813em;
+    }
+  }
+
+  div:nth-child(1) {
+    width: 10.438em;
+    height: 12.563em;
+  }
+  .div1active {
+    div {
+      background-size: 101%;
+      svg {
+        filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white)
+          drop-shadow(0 -1px 0 white) drop-shadow(0 1px 0 white)
+          drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+      }
+    }
+    h4 {
+      visibility: hidden;
+    }
+  }
+  .div2active {
+    div {
+      background-size: 99%;
+      svg {
+        filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white)
+          drop-shadow(0 -1px 0 white) drop-shadow(0 1px 0 white)
+          drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+      }
+    }
+    h4 {
+      visibility: hidden;
+    }
+  }
+  .div3active {
+    div {
+      background-size: 92%;
+      svg {
+        filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white)
+          drop-shadow(0 -1px 0 white) drop-shadow(0 1px 0 white)
+          drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+      }
+    }
+    h4 {
+      visibility: hidden;
+    }
+  }
+  .div4active {
+    div {
+      background-size: 93%;
+      svg {
+        filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white)
+          drop-shadow(0 -1px 0 white) drop-shadow(0 1px 0 white)
+          drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+      }
+    }
+    h4 {
+      visibility: hidden;
+    }
+  }
+  div:nth-child(2) {
+    right: 0px;
+    top: 0;
+    width: 9.969em;
+    height: 11.594em;
+  }
+  div:nth-child(3) {
+    left: 0;
+    bottom: 0;
+    width: 12.093em;
+    height: 11.526em;
+  }
+  div:nth-child(4) {
+    right: 0;
+    bottom: 0.313em;
+    width: 10em;
+    height: 12em;
+  }
+}
+
+.nextBtn {
+  width: 12em;
+  margin: auto;
+  min-height: 20vh;
+}
+
+.blur {
+  filter: blur(2px);
+}

@@ -1,0 +1,103 @@
+.rewards {
+  padding: 33px;
+  min-height: 90vh;
+  h1 {
+    font-family: 'Motley Forces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 20px 0;
+
+    color: #e64b76;
+  }
+  h6 {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 96.22%;
+
+    /* or 15px */
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #473192;
+  }
+
+  p {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 96.22%;
+
+    /* or 13px */
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #e64b76;
+  }
+  p:nth-child(3) {
+    color: wheat;
+  }
+  h5 {
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #473192;
+    margin-top: 20px;
+  }
+}
+
+.seenCard {
+  background: #fffafc;
+  box-shadow: 15.2353px 15.2353px 22.8529px rgba(0, 0, 0, 0.1),
+    -19.0441px -19.0441px 22.8529px rgba(222, 222, 222, 0.2);
+  img {
+    margin: auto;
+  }
+  width: 297.09px;
+  height: 259px;
+  margin: 27px auto;
+  transition: background 0.5s ease-in;
+  border-radius: 45.7059px;
+}
+
+.scratchCard {
+  img {
+    visibility: hidden;
+  }
+  background: #473192;
+  width: 297.09px;
+  height: 259px;
+  margin: 27px auto;
+  transition: background 0.5s ease-in;
+  border-radius: 45.7059px;
+}
+
+.goBtn {
+  width: 200px;
+}
+
+.copyright {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.125em;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #f1ffff;
+}

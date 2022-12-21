@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial Rounded MT Bold&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Motley Forces';
+  src: url(./assets/MotleyForcesRegular.ttf);
+}
+
+@font-face {
+  font-family: 'Arial Rounded MT Bold';
+  src: url(./assets//ARLRDBD.ttf);
+}
+
+@font-face {
+  font-family: '';
+  src: url();
+}
+
+p {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+input {
+  font-family: DM Sans;
+  font-weight: 500;
+}

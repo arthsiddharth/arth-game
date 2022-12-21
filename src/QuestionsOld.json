@@ -1,0 +1,370 @@
+{
+  "Roti": [
+    {
+      "question": "You own a popular boutique in a local market & your designs are loved in your neighbourhood. You know you are good with fashion & design. You can start your own label and sell your own branded outfits.",
+      "options": [
+        {
+          "text": "Never, I am happy with my current business.",
+          "persona": "Confident"
+        },
+        {
+          "text": "Sometimes, I am uncertain to make such a big decision.",
+          "persona": "Mindful"
+        },
+        {
+          "text": "Always, I would start my own label one day.",
+          "persona": "Ambitious"
+        }
+      ]
+    },
+    {
+      "question": "You want to start your Lassi (Food & Beverages) shop in a university campus to attract students, what is your first choice of place to set up the shop? How would you fund it?",
+      "options": [
+        {
+          "text": "Rent out a property on the main campus, though it costs more, it would be profitable. Thus, I would spend my savings, and borrow from a financial institution, family & friends.",
+          "persona": "Confident"
+        },
+        {
+          "text": "Rent out a property in the corner because it is affordable, look for main road shops only when profits come",
+          "persona": "Mindful"
+        },
+        {
+          "text": "Start the business on vending truck, and wait for the time when there are enough funds to rent/buy a full shop",
+          "persona": "Mindful"
+        }
+      ]
+    },
+    {
+      "question": "Your  distant  relative  left  youRs.500,000 in  her  will.  How  do  you  plan  to utilize  itfor  your business?",
+      "options": [
+        {
+          "text": "Buy a new scooter/other utility for operations at work.",
+          "persona": "Resourceful"
+        },
+        {
+          "text": "Use for shop renovation and improvement to grow business",
+          "persona": "Far-sighted"
+        },
+        {
+          "text": "Deposit all the money in savings account and use them on a rainy-day",
+          "persona": "Mindful"
+        }
+      ]
+    },
+    {
+      "question": "You are run afurniture shop, though are facing competition because of online stores coming in. You feel unsure. What to do?",
+      "options": [
+        {
+          "text": "I will quit my business and look for a job under a big carpenter/contractor or a furniture brand",
+          "persona": "Accountable"
+        },
+        {
+          "text": "I will put my furniture on e-commerce stores and compete on the quality of my products",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "I will market my product with a new positioning, handmade, artistic and unique. Give offers to my loyal customers, put myself on Google my Business, etc.",
+          "persona": "Creative"
+        },
+        {
+          "text": "I will continue to do quality work, my work will compete with the competition",
+          "persona": "Confident"
+        }
+      ]
+    },
+    {
+      "question": "Growing up you always wanted to land on a govt. job,but as you grew, you realized, you wanted to be your own boss. What does it take to start a micro-business?",
+      "options": [
+        {
+          "text": "Funds/Financial Backing",
+          "persona": "Lucid"
+        },
+        {
+          "text": "Passion/Creativity/Ideas",
+          "persona": "Creative"
+        },
+        {
+          "text": "Necessity/Strong will",
+          "persona": "Will Power"
+        },
+        {
+          "text": "Business acumen/ Skills",
+          "persona": "Accountable"
+        }
+      ]
+    }
+  ],
+  "Kapda": [
+    {
+      "question": "Wonder if you know what is insurance, credit, payments?",
+      "options": [
+        {
+          "text": "I know credit, insurance & payments.",
+          "persona": "Accountable"
+        },
+        {
+          "text": "I know credit & insurance but not payments",
+          "persona": "Learner"
+        },
+        {
+          "text": "I know credit, not insurance or payments",
+          "persona": "Necessity-driven"
+        }
+      ]
+    },
+    {
+      "question": "You  have  made  financial  decisions  on  investment,  insurance,  etc.  for  yourself,  they  will  be based on:",
+      "options": [
+        {
+          "text": "Entirely driven by will",
+          "persona": "Intuitive"
+        },
+        {
+          "text": "Entirely driven by research from friends, family, internet, company, etc.",
+          "persona": "Practical"
+        },
+        {
+          "text": "Based on family will and some research",
+          "persona": "Balanced"
+        },
+        {
+          "text": "researchI do not make investments, insurance for myself, only by family",
+          "persona": "Carefree"
+        }
+      ]
+    },
+    {
+      "question": "Your neighbour lost a lot of money in the share market, what would you advise him?",
+      "options": [
+        {
+          "text": "Not to invest in share markets, it is not for us. My neighbour was a fool to get his hands dirty.",
+          "persona": "Conservative"
+        },
+        {
+          "text": "Not to invest in share markets unless you have researched about it well",
+          "persona": "Practical"
+        },
+        {
+          "text": "Shares can be risky, but they can give high returns. Not to worry and seek advice from an expert friend next time before any investments",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "Not to invest in share markets, utilize that money in your business for returns.",
+          "persona": "Mindful"
+        }
+      ]
+    },
+    {
+      "question": "You earned Rs. 20,000 surplus profits during the festival season. Whether to spend on your Pooja store or buy a shop insurance protection that your brother-in-law is pitching?",
+      "options": [
+        {
+          "text": "My Pooja store has a lot of inflammable material, I’ll purchase a shop insurance this time, also, happy brother-in-law, Happy Wife, Happy Life!",
+          "persona": "Far-sighted"
+        },
+        {
+          "text": "I’ll colour my Pooja store red, no need of any useless insurance scheme.",
+          "persona": "Conservative"
+        },
+        {
+          "text": "I’ll do a simple FD, best to save money when you have it.",
+          "persona": "Mindful"
+        }
+      ]
+    },
+    {
+      "question": "Your health insurance claim did not come yet, you shouldn’t have taken any insurance from anyone. How would you tackle this situation?",
+      "options": [
+        {
+          "text": "I will consider it as my fate and pledge not to take any further insurance policies from anyone.",
+          "persona": "Carefree"
+        },
+        {
+          "text": "I will contact the insurer and seek help, if no help arrives, I’ll contact the regulators",
+          "persona": "Resilient"
+        },
+        {
+          "text": "I will file police complain against the insurer.",
+          "persona": "Determined"
+        }
+      ]
+    }
+  ],
+  "Makaan": [
+    {
+      "question": "You have Rs.500 per month to invest, but, your financial decisions are generally taken by your husband/son/consultant/advisor because they are more aware than you are.",
+      "options": [
+        {
+          "text": "Disagree, I manage my own business, I will invest in buying goods for my store",
+          "persona": "Resourceful"
+        },
+        {
+          "text": "Neutral, I might give it to them to invest, or can save it myself",
+          "persona": "Balanced"
+        },
+        {
+          "text": "Strongly agree, my husband/son can invest better",
+          "persona": "Accountable"
+        }
+      ]
+    },
+    {
+      "question": "You balance your spending with savings for tomorrow for the future.",
+      "options": [
+        {
+          "text": "Neutral, I will save& spendaccording to personal & household goalsat home",
+          "persona": "Mindful"
+        },
+        {
+          "text": "Somewhat Disagree, I am an intuitive spender",
+          "persona": "Confiden"
+        },
+        {
+          "text": "Agree, I will save in a bankto earn interests& feel at peace",
+          "persona": "Smart"
+        }
+      ]
+    },
+    {
+      "question": "You hail from Firozabad, the city famous for glass work. Lately, you are facing competition due to trendy bangle designs in metal & plastic. How do you plan to address the competition?",
+      "options": [
+        {
+          "text": "I will quit my business and look for a job under a big manufacturer’s shop/factory",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "I will put my neighbourhood bangles on e-commerce stores and compete on the quality of my products",
+          "persona": "Resilient"
+        },
+        {
+          "text": "I will market my product as handmade, artistic, and unique. Give offers to my loyal customers, put myself on Google my Business, etc.",
+          "persona": "Creative"
+        }
+      ]
+    },
+    {
+      "question": "This year, your farms harvested tonnes of mangoes for you to sell, though the market is already full of mangoes. What happens to prices when the supply is high &the demand is low?",
+      "options": [
+        {
+          "text": "Prices increase",
+          "persona": "Carefree"
+        },
+        {
+          "text": "Prices decrease",
+          "persona": "Accountable"
+        },
+        {
+          "text": "Prices remain the same",
+          "persona": "Learner"
+        }
+      ]
+    },
+    {
+      "question": "You are a conservative investor, thus always looking for low risk and high returns. Which of the following options will NOT give you a guaranteed investment?",
+      "options": [
+        {
+          "text": "Savings Account and/or money in my Galla",
+          "persona": "Conservative"
+        },
+        {
+          "text": "SIP, mutual funds, ULIP Insurance Schemes pitched by my friends",
+          "persona": "Learner"
+        },
+        {
+          "text": "Investing in my business",
+          "persona": "Confident"
+        }
+      ]
+    }
+  ],
+  "Internet": [
+    {
+      "question": "Your favourite thing to watch on YouTube today?",
+      "options": [
+        {
+          "text": "New recipes to cook and/or new designs to make",
+          "persona": "Learner"
+        },
+        {
+          "text": "My favourite serial, Reels or Tik-Tok ",
+          "persona": "Carefree"
+        },
+        {
+          "text": "I do not watch YouTube often, my husband/son has the phone",
+          "persona": "Conservative"
+        }
+      ]
+    },
+    {
+      "question": "You are scared of those smartphone-based payments. ",
+      "options": [
+        {
+          "text": "Disagree, I am always on the phone",
+          "persona": "Learner"
+        },
+        {
+          "text": "Neutral, I can use it for my basic needs",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "Strongly agree, my kids know all about these devices",
+          "persona": "Conservative"
+        }
+      ]
+    },
+    {
+      "question": "When was the last time you did a UPI payment at any store/shop? Do you prefer to keep a QR code in your shop?",
+      "options": [
+        {
+          "text": "Yes, it is the need these days, I pay via UPI often.",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "No, our life generally prefers cash",
+          "persona": "Determined"
+        },
+        {
+          "text": "Yes, but not so often, I am a little cautious in using internet",
+          "persona": "Learner"
+        }
+      ]
+    },
+    {
+      "question": "Your husband recommends you to use a famous record keeping app to maintain your Galla, what is your answer to him?",
+      "options": [
+        {
+          "text": "I am using my register and pen, and it is serving me well.",
+          "persona": "Conservative"
+        },
+        {
+          "text": "OK, teach me how to use the app, I will give it a try if it is in Hindi.",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "I am already using the application. Thank You",
+          "persona": "Learner"
+        },
+        {
+          "text": "I don’t need to do accounting, our shop is a small set-up we don’t need it",
+          "persona": "Resilient"
+        }
+      ]
+    },
+    {
+      "question": "You neighbouring shopkeeper pays his EMIs through his bank account, but you have to visit bank branches. To change this, what can be done by you?",
+      "options": [
+        {
+          "text": "I’ll ask the branch employees to get my bank deduction process initiated",
+          "persona": "Adaptable"
+        },
+        {
+          "text": "I am going to fill out my form for bank deductions after I understand the whole process and ensure safety.",
+          "persona": "Confident"
+        },
+        {
+          "text": "Nothing, I prefer security over ease. I will do cash payments",
+          "persona": "Determined"
+        }
+      ]
+    }
+  ]
+}

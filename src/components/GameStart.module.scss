@@ -1,0 +1,139 @@
+.introduction {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: absolute;
+  visibility: hidden;
+  animation: fadeIn 2s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  z-index: 0;
+  background: #bfefee;
+}
+
+.outerCircle {
+  background: #45c1c0;
+  box-shadow: 2.78443px -2.78443px 5.56886px rgba(255, 255, 255, 0.3);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 566px;
+  height: 566px;
+  border-radius: 50%;
+  animation: outerCircleIntro 0.5s cubic-bezier(0.7, -0.4, 0.4, 1.4) 5.5s
+    forwards;
+}
+
+@keyframes outerCircleIntro {
+  0% {
+    width: 566px;
+    height: 566px;
+  }
+  100% {
+    width: 310px;
+    height: 310px;
+  }
+}
+
+.innerCircle {
+  background: #45c1c0;
+  box-shadow: 2.78443px -2.78443px 5.56886px rgba(255, 255, 255, 0.3);
+  width: 411.79px;
+  height: 411.79px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  z-index: 0;
+  animation: innerCircleIntro 0.5s cubic-bezier(0.7, -0.4, 0.4, 1.4) 5.5s
+    forwards;
+}
+
+@keyframes innerCircleIntro {
+  0% {
+    width: 411.79px;
+    height: 411.79px;
+  }
+  100% {
+    width: 225.54px;
+    height: 225.54px;
+  }
+}
+
+.quote {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  z-index: 1;
+  animation: quoteIntro 0.5s cubic-bezier(0.7, -0.4, 0.4, 1.4) 5.5s forwards;
+  transform: translateX(-50%);
+  font-size: 200px;
+  img {
+    width: 350px;
+    height: auto;
+    max-width: none;
+  }
+}
+
+@keyframes quoteIntro {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+
+.playBtn {
+  width: 178px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+    z-index: 0;
+  }
+  100% {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+  }
+}
+
+.description {
+  width: 328px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #473192;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.copyright {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.125em;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  position: absolute;
+  bottom: 0%;
+  color: #f1ffff;
+}

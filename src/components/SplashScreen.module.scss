@@ -1,0 +1,94 @@
+.splashScreen {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  animation: hideAnimation 0s ease-in 8s forwards; //hide the element after 8 seconds
+  position: absolute;
+  z-index: 1;
+  .circle {
+    background-color: #ffeff5;
+    width: 1018px;
+    height: 1018px;
+    box-shadow: inset 4.21053px 0px 4.21053px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    opacity: 1;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: circle_shadow;
+    animation-duration: 5s;
+  }
+  .arthLogo {
+    height: 100%;
+    opacity: 0;
+    animation-name: logo_appearance;
+    animation-duration: 5s;
+  }
+  @keyframes logo_appearance {
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    60% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes circle_shadow {
+    0% {
+      width: 160px;
+      height: 160px;
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    20% {
+      box-shadow: inset 0px 4.21053px 4.21053px rgba(0, 0, 0, 0.15);
+    }
+    30% {
+      box-shadow: inset -4.208px 2.13333px 4.208px rgba(0, 0, 0, 0.15);
+    }
+    40% {
+      box-shadow: inset 0px -4.208px 4.208px rgba(0, 0, 0, 0.25);
+    }
+    50% {
+      box-shadow: inset 4.21053px 0px 4.21053px rgba(0, 0, 0, 0.15);
+    }
+    60% {
+      box-shadow: inset 4.21053px 0px 4.21053px rgba(0, 0, 0, 0.15),
+        inset 0px 4.21053px 4.21053px rgba(0, 0, 0, 0.15);
+    }
+    70% {
+      box-shadow: 0px 6.31579px 4.21053px rgba(0, 0, 0, 0.1),
+        -6.31579px 0px 4.21053px rgba(0, 0, 0, 0.1),
+        inset 4.21053px 0px 4.21053px rgba(0, 0, 0, 0.15),
+        inset 0px 4.21053px 4.21053px rgba(0, 0, 0, 0.15);
+      width: 160px;
+      height: 160px;
+    }
+    80% {
+      width: 1018px;
+      height: 1018px;
+      opacity: 1;
+    }
+    100% {
+      width: 1018px;
+      height: 1018px;
+    }
+  }
+  @keyframes hideAnimation {
+    to {
+      visibility: hidden;
+    }
+  }
+}

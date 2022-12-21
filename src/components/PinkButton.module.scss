@@ -1,0 +1,28 @@
+.btn {
+  background: linear-gradient(180deg, #f58bb3 0%, #f16599 100%),
+    radial-gradient(#ffffff, #a6a6a6);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: 0px 8.13198px 3.38832px rgba(0, 0, 0, 0.04),
+    0px 4.74365px 2.71066px rgba(0, 0, 0, 0.12),
+    0px 2.03299px 2.03299px rgba(0, 0, 0, 0.2),
+    0px 0.677665px 1.35533px rgba(0, 0, 0, 0.24),
+    0px 0px 0px rgba(0, 0, 0, 0.24);
+  border-radius: 16.264px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.13198px 21.6853px;
+  isolation: isolate;
+  width: 100%;
+  font-family: Rubik Moonrocks;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: 2.71px solid transparent;
+}
